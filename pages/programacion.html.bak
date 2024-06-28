@@ -39,7 +39,7 @@
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase">Programming</h1>
+                        <h1 class="custom-title mx-auto my-0 text-uppercase">Code</h1>
                     </div>
                 </div>
             </div>
@@ -51,9 +51,9 @@
                 <div class="container px-4 px-lg-5">
                     <br></br>
                     <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div class="card" style="width: 1700px;">
-                            <div class="row no-gutters">
-                                <div class="col-sm-7">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-7">
                                     <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                                         <div class="carousel-indicators">
                                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -85,23 +85,26 @@
                                         </button>
                                       </div>
                                 </div>
-                                <div class="col-sm-5">
-                                    <div class="card-body">
+                                <div class="col-md-5">
+                                    <div class="card-body card-body-center">
                                         <br></br>
-                                        <h3 class="card-title">A Flower's Dream: The Beginning</h3>
+                                        <h3 class="card-title text-center">A Flower's Dream: The Beginning</h3>
                                         <br></br>
-                                        <p class="card-text text-center text-lg-left">A Flower's Dream: The Beginning is a visual novel developed with Unity and Yarn Spinner where players must take some decisions and make the bouquets that clients request, influencing their relationship with them and being able to unlock three different endings with each of the five main characters, depending on the level of affinity gained during the game. </p>
+                                        <p class="card-text text-center text-md-left">A Flower's Dream: The Beginning is a visual novel developed with Unity and Yarn Spinner where players must take some decisions and make the bouquets that clients request, influencing their relationship with them and being able to unlock three different endings with each of the five main characters, depending on the level of affinity gained during the game. </p>
                                         <br></br>
-                                        <div class="row align-items-center">
-                                            <div class="col-sm-2">
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-4 col-md-2">
                                                 <img src="../assets/img/Logos/Unity.png" class="d-block w-100" alt="...">
                                             </div>
-                                            <div class="col-sm-2">
+                                            <div class="col-4 col-md-2">
                                                 <img src="../assets/img/Logos/Yarn Spinner.png" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
-                                        <br></br>
-                                        <a href="https://linktr.ee/silvertalesstudio" class="btn btn-primary">Know more</a>
+										<br></br>
+                                        <div class="button-container mt-3">
+											<a href="https://linktr.ee/silvertalesstudio" class="btn btn-primary">Know more</a>
+										</div>
+
                                     </div>
                                 </div>
                             </div>
@@ -113,9 +116,9 @@
                     <br></br>
                     <br></br>
                     <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div class="card" style="width: 1700px;">
-                            <div class="row no-gutters">
-                                <div class="col-sm-7">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-7">
                                     <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                                         <div class="carousel-indicators">
                                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -147,20 +150,23 @@
                                         </button>
                                       </div>
                                 </div>
-                                <div class="col-sm-5">
+                                <div class="col-md-5">
                                     <div class="card-body">
                                         <br></br>
                                         <h3 class="card-title text-center">Tiny Tussle</h3>
                                         <br></br>
                                         <p class="card-text text-center text-lg-left">Multiplayer video game developed with Phaser.io in which players must face their opponents to get the greatest number of gems before time runs out and be able to porclaim themselves the winner. They will have the option of using different weapons that will appear randomly on the stage. Also, they will be able to make use of the character's ability, unique to each one of them, to get gems in an easier way during a limited time.</p>
                                         <br></br>
-                                        <div class="row align-items-center">
-                                            <div class="col-sm-2">
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-4 col-md-2">
                                                 <img src="../assets/img/Logos/Phaser.png" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
                                         <br></br>
-                                        <a href="https://github.com/BAmado753/JER_21-22_Grupo_4" class="btn btn-primary">Know more</a>
+                                        <div class="button-container mt-3">
+											<a href="https://github.com/BAmado753/JER_21-22_Grupo_4" class="btn btn-primary">Know more</a>
+										</div>
+										<br></br>
                                     </div>
                                 </div>
                             </div>
@@ -172,9 +178,9 @@
                     <br></br>
                     <br></br>
                     <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div class="card" style="width: 1700px;">
-                            <div class="row no-gutters">
-                                <div class="col-sm-7">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-7">
                                     <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                                         <div class="carousel-indicators">
                                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -206,15 +212,15 @@
                                         </button>
                                       </div>
                                 </div>
-                                <div class="col-sm-5">
-                                    <div class="card-body">
+                                <div class="col-md-5">
+                                    <div class="card-body card-body-center">
                                         <br></br>
                                         <h3 class="card-title text-center">CP2223</h3>
                                         <br></br>
                                         <p class="card-text text-center text-lg-left">Project carried out for the Character Behaviour subject in which some Artificial Intelligences have been implemented using Behaviour Trees, Moore State Machines and Utility Systems. In addition to this, a number of Smart Objects have been created to facilitate the development of AIs such as the playground or the bathroom, which indicate to the characters the actions to be carried out in those places, based on the decision they have previously made.</p>
                                         <br></br>
-                                        <div class="row align-items-center">
-                                            <div class="col-sm-2">
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-4 col-md-2">
                                                 <img src="../assets/img/Logos/Unity.png" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
@@ -230,9 +236,9 @@
                     <br></br>
                     <br></br>
                     <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div class="card" style="width: 1700px;">
-                            <div class="row no-gutters">
-                                <div class="col-sm-7">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-7">
                                     <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                                         <div class="carousel-indicators">
                                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -264,15 +270,15 @@
                                         </button>
                                       </div>
                                 </div>
-                                <div class="col-sm-5">
-                                    <div class="card-body">
+                                <div class="col-md-5">
+                                    <div class="card-body card-body-center">
                                         <br></br>
                                         <h3 class="card-title text-center">Drax's Adventures</h3>
                                         <br></br>
                                         <p class="card-text text-center text-lg-left">One level demo developed in Unreal Engine in which players must collect as many coins as possible until they reach their destination. To advance through the world, players will have to find the keys of the doors and make use of the power ups, as well as activate some platforms and mechanisms.</p>
                                         <br></br>
-                                        <div class="row align-items-center">
-                                            <div class="col-sm-2">
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-4 col-md-2">
                                                 <img src="../assets/img/Logos/Unreal.png" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
@@ -288,9 +294,9 @@
                     <br></br>
                     <br></br>
                     <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div class="card" style="width: 1700px;">
-                            <div class="row no-gutters">
-                                <div class="col-sm-7">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-7">
                                     <div id="carouselExampleIndicators6" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                                         <div class="carousel-indicators">
                                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -318,15 +324,15 @@
                                         </button>
                                       </div>
                                 </div>
-                                <div class="col-sm-5">
-                                    <div class="card-body">
+                                <div class="col-md-5">
+                                    <div class="card-body card-body-center">
                                         <br></br>
                                         <h3 class="card-title text-center">Boing Cat</h3>
                                         <br></br>
                                         <p class="card-text text-center text-lg-left">Mobile application developed with Flutter where players must control a cat and collect the coins that they find on their way, avoiding obstacles to reach the goal marked in each level. The application has a button to change the language, a user login, a choice of difficulty level and themes, and a ranking, saving this data persistently.</p>
                                         <br></br>
-                                        <div class="row align-items-center">
-                                            <div class="col-sm-2">
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-4 col-md-2">
                                                 <img src="../assets/img/Logos/Flutter.png" class="d-block w-100" alt="...">
                                             </div>
                                         </div>
@@ -342,9 +348,9 @@
                     <br></br>
                     <br></br>
                     <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div class="card" style="width: 1700px;">
-                            <div class="row no-gutters">
-                                <div class="col-sm-7">
+                        <div class="card">
+                            <div class="row g-0">
+                                <div class="col-md-7">
                                     <div id="carouselExampleIndicators7" class="carousel slide" data-bs-ride="carousel" data-bs-interval="false">
                                         <div class="carousel-indicators">
                                           <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -376,15 +382,15 @@
                                         </button>
                                       </div>
                                 </div>
-                                <div class="col-sm-5">
-                                    <div class="card-body">
+                                <div class="col-md-5">
+                                    <div class="card-body card-body-center">
                                         <br></br>
                                         <h3 class="card-title text-center">Pancate</h3>
                                         <br></br>
                                         <p class="card-text text-center text-lg-left">Mobile application developed with Unity and oriented to children that make use of the microphone and the gyroscope. Players must turn the mobile to make the character move forward, controlling the inclination so that it doesn't get tired, which would lead to losing the game. Players also will have to blow when a bird appears and tries to knock the character's pancake tower down. Score and settings are automatically saved using Unity's playerprefs.</p>
                                         <br></br>
-                                        <div class="row align-items-center">
-                                            <div class="col-sm-2">
+                                        <div class="row align-items-center justify-content-center">
+                                            <div class="col-4 col-md-2">
                                                 <img src="../assets/img/Logos/Unity.png" class="d-block w-100" alt="...">
                                             </div>
                                         </div>

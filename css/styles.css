@@ -630,6 +630,10 @@ progress {
   color: #6c757d;
 }
 
+.custom-title {
+    font-size: 0.5rem; /* Ajusta este valor según tus necesidades */
+}
+
 .container,
 .container-fluid,
 .container-xxl,
@@ -655,6 +659,45 @@ progress {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.responsive-iframe-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+.responsive-iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media (min-width: 992px) {
+    .responsive-iframe-container {
+        height: 100%;
+        padding-top: 0;
+    }
+    .responsive-iframe-container iframe {
+        height: 100%;
+    }
+}
+.card-body-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+.card-body-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    }
+.button-container {
+    display: flex;
+    justify-content: center;
 }
 
 @media (min-width: 576px) {
