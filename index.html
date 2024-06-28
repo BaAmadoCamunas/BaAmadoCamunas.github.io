@@ -5,7 +5,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Bárbara Amado Camuñas - Portfolio</title>
+        <title>Bárbara Amado Camuñas - Portfolio</title> 
+		<style>
+			.equal-height {
+				display: flex;
+				align-items: stretch;
+			}
+			.equal-height .col {
+				display: flex;
+				flex-direction: column;
+			}
+			.equal-height .project {
+				flex: 1;
+			}
+		</style>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
@@ -120,23 +133,11 @@
                     </div>
                 </div>
                 <br></br>
-                <div class="container px-4 px-lg-5">
-                    <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                        <div class="col-xl-2 col-lg-5 align-items-center"></div>
-                        <!--<div class="col-xl-4 col-lg-5 align-items-center">
-                            <div class="card" style="width: 18rem;">
-                                <img class="card-img-top" src="..." alt="Card image cap">
-                                <div class="card-body">
-                                  <h5 class="card-title">Concept y Modelado 3D</h5>
-                                  <br></br>
-                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                                  <a href="pages/modeladoAnimacionRigging.html" class="btn btn-primary">Descubrir más</a>
-                                </div>
-                              </div>
-                        </div>-->
+                <div class="container px-4 px-lg-5 ">
+                    <div class="row gx-4 mb-4 mb-lg-5 justify-content-center">
 
-                        <div class="col-xl-4 col-lg-5 align-items-center">
-                            <div class="card" style="width: 18rem;">
+                        <div class="col-xl-4 col-lg-5 col-md-10 col-sm-12 d-flex align-items-center mb-4 mb-lg-0 me-lg-4">
+                            <div class="card w-100">
                                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
                                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -171,9 +172,9 @@
                                 </div>
                               </div>
                         </div>
-
-                        <div class="col-xl-4 col-lg-5 align-items-center">
-                            <div class="card" style="width: 18rem;">
+						
+                        <div class="col-xl-4 col-lg-5 col-md-10 col-sm-12 d-flex align-items-center mb-4 mb-lg-0">
+                            <div class="card w-100">
                                 <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
                                     <div class="carousel-indicators">
                                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -183,6 +184,7 @@
                                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
                                       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
                                     </div>
+
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
                                         <img src="assets/img/Programacion/AFlowersDream/Ramificacion.gif" class="d-block w-100" alt="...">
@@ -218,7 +220,7 @@
                                     <p class="card-text">Video games and demos developed until now in Unity, Unreal, Phaser.io and Flutter.</p>
                                     <a href="pages/programacion.html" class="btn btn-primary">Know more</a>
                                 </div>
-                              </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -230,7 +232,7 @@
                 <h2 class="text-black mb-4">Recent projects</h2>
                 <br></br>
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-					<div class="col-xl-8 col-lg-7"><iframe width="760" height="515" src="https://www.youtube.com/embed/_gsRV0SHyjc?si=yaOrdaPY2qAfywql&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+					<div class="col-xl-8 col-lg-7 mb-4 mb-lg-0"><div class="ratio ratio-16x9"><iframe src="https://www.youtube.com/embed/_gsRV0SHyjc?si=yaOrdaPY2qAfywql&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Scrooge Rig</h4>
@@ -245,7 +247,7 @@
 				
 				<!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/pushJointsImage.png" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid h-100" src="assets/img/pushJointsImage.png" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -259,8 +261,8 @@
                     </div>
                 </div>
                 <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/bataImage.png" alt="..." /></div>
+                <div class="row gx-0 justify-content-center equal-height">
+                    <div class="col-lg-6 order-lg-last"><img class="img-fluid h-100" src="assets/img/bataImage.png" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -286,7 +288,7 @@
                 <br></br>
                 <br></br>
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/Floristeria.png" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7 mb-4 mb-lg-0"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/Floristeria.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>A Flower's Dream: The Beginning</h4>
@@ -300,7 +302,7 @@
                 </div>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/visualNovel.png" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid h-100" src="assets/img/visualNovel.png" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -315,7 +317,7 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/MinijuegosFlores.png" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid h-100" src="assets/img/MinijuegosFlores.png" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -341,7 +343,7 @@
                 <br></br>
                 <br></br>
                 <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/TinyTussle.png" alt="..." /></div>
+                    <div class="col-xl-8 col-lg-7 mb-4 mb-lg-0"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/TinyTussle.png" alt="..." /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Tiny Tussle</h4>
@@ -355,7 +357,7 @@
                 </div>
                 <!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/EscenarioHalloween.png" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid h-100" src="assets/img/EscenarioHalloween.png" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -370,7 +372,7 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/JuegoTinyTussle.png" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid h-100" src="assets/img/JuegoTinyTussle.png" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
