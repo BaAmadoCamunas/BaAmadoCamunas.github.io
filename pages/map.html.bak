@@ -17,7 +17,7 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mapNav">
             <div class="container px-4 px-lg-5">
                 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -61,7 +61,7 @@
 				
 				<!-- Project One Row-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="../assets/img/Rigging/Mapa/mapRoll.png" alt="..." /></div>
+                    <div class="col-lg-6"><img class="img-fluid h-100" src="../assets/img/Rigging/Mapa/mapRoll.png" alt="..." /></div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -76,7 +76,7 @@
                 </div>
                 <!-- Project Two Row-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="../assets/img/Rigging/Mapa/mapOtherEffects.png" alt="..." /></div>
+                    <div class="col-lg-6 order-lg-last"><img class="img-fluid" src="../assets/img/Rigging/Mapa/mapOtherEffects.png" alt="..." /></div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">

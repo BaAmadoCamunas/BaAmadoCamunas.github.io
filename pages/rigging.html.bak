@@ -17,7 +17,7 @@
     </head>
     <body id="page-top">
         <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="secNav">
             <div class="container px-4 px-lg-5">
                 
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -117,8 +117,10 @@
                     <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
                         <div class="card w-100">
                             <div class="row g-0">
-                                <div class="responsive-iframe-container">
-									<iframe src="https://www.youtube.com/embed/M8cv1MyUxPk?si=a-ZWSERNY64gQHCt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+								<div class="col-md-7 col-12">
+									<div class="responsive-iframe-container">
+										<iframe src="https://www.youtube.com/embed/M8cv1MyUxPk?si=a-ZWSERNY64gQHCt" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+									</div>
 								</div>
                                 <div class="col-md-5 col-12 d-flex">
                                     <div class="card-body card-body-center">

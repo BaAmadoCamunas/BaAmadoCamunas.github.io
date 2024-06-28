@@ -689,6 +689,17 @@ progress {
     height: 100%;
 }
 
+.card-body-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    }
+.button-container {
+    display: flex;
+    justify-content: center;
+}
+
 @media (min-width: 576px) {
   .container-sm, .container {
     max-width: 540px;
@@ -11590,6 +11601,88 @@ body {
     border-bottom: 0.25rem solid #64a19d;
   }
 }
+
+
+
+
+
+#secNav {
+  min-height: 3.5rem;
+  background-color: #fd7e14;
+}
+#secNav .navbar-toggler {
+  font-size: 80%;
+  padding: 0.75rem;
+  color: #64a19d;
+  border: 1px solid #64a19d;
+}
+#secNav .navbar-toggler:focus {
+  outline: none;
+}
+#secNav .navbar-brand {
+  color: #000;
+  font-weight: 700;
+  padding: 0.9rem 0;
+}
+#secNav .navbar-nav .nav-item:hover {
+  color: fade(#fff, 80%);
+  outline: none;
+  background-color: transparent;
+}
+#secNav .navbar-nav .nav-item:active, #secNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+@media (min-width: 992px) {
+  #secNav {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+    background-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+  #secNav .navbar-brand {
+    padding: 0.5rem 0;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #secNav .nav-link {
+    transition: none;
+    padding: 2rem 1.5rem;
+    color: rgba(255, 255, 255, 0.5);
+  }
+  #secNav .nav-link:hover {
+    color: rgba(255, 255, 255, 0.75);
+  }
+  #secNav .nav-link:active {
+    color: #fff;
+  }
+  #secNav.navbar-shrink {
+    background-color: #fff;
+  }
+  #secNav.navbar-shrink .navbar-brand {
+    color: #000;
+  }
+  #secNav.navbar-shrink .nav-link {
+    color: #000;
+    padding: 1.5rem 1.5rem 1.25rem;
+    border-bottom: 0.25rem solid transparent;
+  }
+  #secNav.navbar-shrink .nav-link:hover {
+    color: #64a19d;
+  }
+  #secNav.navbar-shrink .nav-link:active {
+    color: #467370;
+  }
+  #secNav.navbar-shrink .nav-link.active {
+    color: #64a19d;
+    outline: none;
+    border-bottom: 0.25rem solid #64a19d;
+  }
+}
+
+
+
+
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
