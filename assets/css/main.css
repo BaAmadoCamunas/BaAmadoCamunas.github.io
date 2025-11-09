@@ -1965,8 +1965,26 @@ div{
 		input[type="button"].small,
 		button.small,
 		.button.small {
+			background-color: #61A5C2;
+			font-weight: 700;
 			font-size: 0.8em;
 		}
+			input[type="submit"].small:hover,
+			input[type="reset"].small:hover,
+			input[type="button"].small:hover,
+			button.small:hover,
+			.button.small:hover {
+				background-color: #58cbfc;
+				color: #ffffff !important;
+			}
+
+				input[type="submit"].small:hover:active,
+				input[type="reset"].small:hover:active,
+				input[type="button"].small:hover:active,
+				button.small:hover:active,
+				.button.small:hover:active {
+					background-color: #257699;
+				}
 
 		input[type="submit"].large,
 		input[type="reset"].large,
@@ -1982,6 +2000,7 @@ div{
 		button.primary,
 		.button.primary {
 			background-color: #61A5C2;
+			font-weight: 700;
 			box-shadow: none;
 			
 		}
@@ -3681,7 +3700,7 @@ header.major {
 		-moz-justify-content: center;
 		-webkit-justify-content: center;
 		-ms-justify-content: center;
-		justify-content: center;
+		justify-content:space-between;
 		list-style: none;
 		padding: 0;
 		width: 100%;
