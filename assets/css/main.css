@@ -2770,6 +2770,27 @@ header.major {
 		.image.fit img {
 			width: 100%;
 		}
+	
+	.responsive-process-img {
+	    max-width: 100%;
+	    height: auto;
+	    display: inline-block; 
+	    margin: 1.5rem; 
+	}
+
+	.process-images-container {
+	    display: flex;
+	    flex-wrap: wrap;
+	    justify-content: center;
+	    gap: 0.5rem;
+	}
+	
+	@media (max-width: 768px) {
+	    .process-images-container {
+	        flex-direction: column;
+	        align-items: center;
+	    }
+	}
 
 
 /* List */
@@ -2789,6 +2810,10 @@ header.major {
 		margin: 0 0 2em 0;
 		padding-left: 1em;
 	}
+
+		ul.process li {
+    		margin-bottom: 1.5rem; 
+		}
 
 		ul li {
 			padding-left: 0.5em;
