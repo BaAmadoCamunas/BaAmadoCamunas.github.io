@@ -6436,3 +6436,8 @@ body.is-preload #banner:after {
     max-width: 100% !important;
   }
 }
+
+:root {
+  color-scheme: light;
+  forced-color-adjust: none;
+}
