@@ -2050,6 +2050,7 @@ div{
 	flex-wrap: wrap;
 	position: relative;
 	margin: -2.5em 0 0 -2.5em;
+	
 }
 
 	.tiles article {
@@ -2058,7 +2059,7 @@ div{
 		-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 		transition: transform 0.5s ease, opacity 0.5s ease;
 		position: relative;
-		width: calc(33.33333% - 2.5em);
+		width: calc(33.33333% - 3.5em);
 		margin: 2.5em 0 0 2.5em;
 	}
 
@@ -6309,3 +6310,129 @@ body.is-preload #banner:after {
   	  font-size: 0.9rem;
   	}
 }	
+
+/* Botones centrados */
+.filter-buttons {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.filter-buttons .filter-btn {
+    background: #428ae2;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.2rem;
+    margin: 0 0.5rem;
+    border-radius: 0.4rem;
+    cursor: pointer;
+    transition: 0.3s;
+	display: inline-flex;
+    align-items: center;     
+    justify-content: center;    
+}
+
+.filter-buttons .filter-btn.active{
+	background: #053c8f !important; 
+}
+.filter-buttons .filter-btn:hover {
+    background-color: #89befd !important;  
+    color: #ffffff !important;
+}
+
+
+
+/* Fondo azul para tiles */
+.projects-container {
+    background-color: #1e3a8a;
+    padding: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+/* Ajustar artículos manteniendo estilo tiles */
+.project-item {
+    transition: opacity 0.5s ease, transform 0.5s ease;
+	
+}
+
+/* Ocultar elementos filtrados */
+.project-item.hidden {
+    opacity: 0;
+    pointer-events: none;
+    transform: scale(0.95);
+}
+
+/* --- Override tiles (versión definitiva, Opción 1) --- */
+
+/* Contenedor de tiles con huecos y fondo azul */
+.tiles {
+  display: flex !important;
+  flex-wrap: wrap !important;
+
+  /* huecos reales entre tiles */
+  column-gap: 0.5em !important;
+  row-gap: 0.5em !important;
+
+  /* evitar que se peguen al borde del fondo */
+  padding: 0 !important;
+  box-sizing: border-box !important;
+
+  /* elimina el margin negativo del template */
+  margin: 0 !important;
+
+  background-color: #1e4a6b !important;
+  border-radius: 0.75rem !important;
+
+  /* evita que las filas se estiren verticalmente */
+  align-content: flex-start !important;
+}
+
+/* Tiles individuales */
+.tiles article {
+  box-sizing: border-box !important;
+
+  /* eliminamos márgenes del template */
+  margin: 0 !important;
+  padding: 2rem !important;
+
+  width: calc((100% - (2 * 0.5em)) / 3) !important;
+  max-width: calc((100% - (2 * 0.5em)) / 3) !important;
+
+  transition: none !important;
+
+  border-radius: 4px !important;
+}
+
+.tiles article.tiles-ready {
+  transition: transform 550ms cubic-bezier(.2,.8,.2,1), 
+              opacity 550ms ease !important;
+}
+
+
+/* --- RESPONSIVE --- */
+
+@media screen and (max-width: 980px) {
+  .tiles {
+    padding: 2.5em !important;
+    column-gap: 2.5em !important;
+    row-gap: 2.5em !important;
+  }
+  .tiles article {
+    width: calc((100% - 2.5em) / 2) !important;
+    max-width: calc((100% - 2.5em) / 2) !important;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .tiles {
+    padding: 1.25em !important;
+    column-gap: 1.25em !important;
+    row-gap: 1.25em !important;
+  }
+  .tiles article {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
