@@ -3836,6 +3836,61 @@ header.major {
 					}
 
 			}
+	
+
+	.features_grid {
+	  display: grid;
+	  grid-template-columns: repeat(3, 1fr);
+	  gap: 4.0rem;
+	}
+
+	/* Tarjeta */
+	.features_grid section {
+	  background: #1e4a6b;           /* fondo oscuro elegante */
+	  padding: 1.5rem;
+	  border-radius: 12px;
+	  box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+	  transition: transform 0.25s ease, box-shadow 0.25s ease;
+	  max-width: 420px;
+	  margin: 0 auto;
+	}
+
+	/* Hover suave */
+	.features_grid section:hover {
+	  transform: translateY(-6px);
+	  box-shadow: 0 12px 26px rgba(0,0,0,0.5);
+	}
+
+	/* Imagen dentro de la tarjeta */
+	.features_grid section img {
+	  width: 100%;
+	  max-height: 220px;   /* 👈 hace la miniatura más pequeña */
+	  object-fit: cover;
+	  border-radius: 8px;
+	  margin-bottom: 1rem;
+	}
+
+	/* Texto */
+	.features_grid section h3 {
+	  margin-top: 0.5rem;
+	  margin-bottom: 0.75rem;
+	}
+
+	.features_grid section p {
+	  color: white; 
+	}
+
+	/* En móvil: 1 por fila */
+	@media screen and (max-width: 736px) {
+	  .features_grid {
+	    grid-template-columns: 1fr;
+	  }
+
+	  .features_grid section {
+	    max-width: 100%;
+	  }
+	}
+
 
 /* Contact Method */
 
@@ -6436,6 +6491,8 @@ body.is-preload #banner:after {
     max-width: 100% !important;
   }
 }
+
+
 
 :root {
   color-scheme: light;
