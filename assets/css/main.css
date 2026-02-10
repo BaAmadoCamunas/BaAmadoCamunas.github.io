@@ -149,7 +149,7 @@ div{
 	@media screen and (max-width: 1680px) {
 
 		div {
-			font-size: 13pt;
+			font-size: var(--fs-base);
 		}
 
 	}
@@ -157,7 +157,7 @@ div{
 	@media screen and (max-width: 1280px) {
 
 		div {
-			font-size: 12pt;
+			font-size: var(--fs-base);
 		}
 
 	}
@@ -165,7 +165,7 @@ div{
 	@media screen and (max-width: 736px) {
 
 		div {
-			font-size: 11pt;
+			font-size: var(--fs-base);
 			letter-spacing: 0.0375em;
 		}
 
@@ -228,7 +228,7 @@ div{
 	body, input, select, textarea {
 		color: #a0a0a1;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 15pt;
+		font-size: var(--fs-base);
 		font-weight: 300;
 		letter-spacing: 0.025em;
 		line-height: 1.65;
@@ -237,7 +237,7 @@ div{
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
-				font-size: 13pt;
+				font-size: var(--fs-base);
 			}
 
 		}
@@ -245,7 +245,7 @@ div{
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
-				font-size: 12pt;
+				font-size: var(--fs-base);
 			}
 
 		}
@@ -253,7 +253,7 @@ div{
 		@media screen and (max-width: 736px) {
 
 			body, input, select, textarea {
-				font-size: 11pt;
+				font-size: var(--fs-base);
 				letter-spacing: 0.0375em;
 			}
 
@@ -301,51 +301,22 @@ div{
 			text-decoration: none;
 		}
 
-	h1 {
-		font-size: 2em;
-	}
+	h1 { font-size: var(--fs-xxl); }
+    h2 { font-size: var(--fs-xl); }
+    h3 { font-size: var(--fs-l); }
+    h4 { font-size: var(--fs-m); }
+    h5 { font-size: var(--fs-s); }
+    h6 { font-size: var(--fs-xs); }
 
-	h2 {
-		font-size: 1.25em;
-	}
-
-	h3 {
-		font-size: 1.1em;
-	}
-
-	h4 {
-		font-size: 1em;
-	}
-
-	h5 {
-		font-size: 0.9em;
-	}
-
-	h6 {
-		font-size: 0.7em;
-	}
 
 	@media screen and (max-width: 736px) {
 
-		h2 {
-			font-size: 1em;
-		}
-
-		h3 {
-			font-size: 0.9em;
-		}
-
-		h4 {
-			font-size: 0.8em;
-		}
-
-		h5 {
-			font-size: 0.7em;
-		}
-
-		h6 {
-			font-size: 0.7em;
-		}
+		h1 { font-size: var(--fs-xxl); }
+        h2 { font-size: var(--fs-xl); }
+        h3 { font-size: var(--fs-l); }
+        h4 { font-size: var(--fs-m); }
+        h5 { font-size: var(--fs-s); }
+        h6 { font-size: var(--fs-xs); }
 
 	}
 
@@ -1905,7 +1876,7 @@ div{
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-size: 0.9em;
+		font-size: var(--fs-s);
 		font-weight: 300;
 		height: 3.05556em;
 		letter-spacing: 0.1em;
@@ -1967,7 +1938,7 @@ div{
 		.button.small {
 			background-color: #61A5C2;
 			font-weight: 700;
-			font-size: 0.8em;
+			font-size: var(--fs-xs);
 		}
 			input[type="submit"].small:hover,
 			input[type="reset"].small:hover,
@@ -1991,7 +1962,7 @@ div{
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 1.35em;
+			font-size: var(--fs-l);
 		}
 
 		input[type="submit"].primary,
@@ -2164,7 +2135,9 @@ div{
 
 			.tiles article > a h2 {
 				margin: 0;
+				font-size: var(--fs-l);
 				font-weight: bold;
+				
 				color: white;
 			}
 
@@ -2320,13 +2293,13 @@ header p {
 }
 
 header h3 + p {
-	font-size: 1.1em;
+	font-size: var(--fs-m);
 }
 
 header h4 + p,
 header h5 + p,
 header h6 + p {
-	font-size: 0.9em;
+	font-size: var(--fs-m);
 }
 
 header.major {
@@ -2445,7 +2418,7 @@ header.major {
 	label {
 		color: #ffffff;
 		display: block;
-		font-size: 0.9em;
+		font-size: var(--fs-s);
 		font-weight: 300;
 		margin: 0 0 1em 0;
 	}
@@ -2552,7 +2525,7 @@ header.major {
 			color: #a0a0a1;
 			cursor: pointer;
 			display: inline-block;
-			font-size: 1em;
+			font-size: var(--fs-base);
 			font-weight: 300;
 			padding-left: 2.4em;
 			padding-right: 0.75em;
@@ -2578,7 +2551,7 @@ header.major {
 				background: #34363b;
 				content: '';
 				display: inline-block;
-				font-size: 0.8em;
+				font-size: var(--fs-xs);
 				height: 2.0625em;
 				left: 0;
 				line-height: 2.0625em;
@@ -2691,7 +2664,7 @@ header.major {
 		border-radius: 3px;
 		border: solid 2px #fff;
 		display: inline-block;
-		font-size: 1.35em;
+		font-size: var(--fs-l);
 		height: calc(3em + 2px);
 		line-height: 3em;
 		text-align: center;
@@ -3323,19 +3296,30 @@ header.major {
 		position: relative;
     	width: 100%;
     	padding-top: 56.25%; /* Mantiene la relación de aspecto 16:9 */
+		border-radius: 8px;
     	overflow: hidden;
-	  } 
+		
+	} 
 	  
-	  .iframe-container iframe {
+	.iframe-container iframe {
 		position: absolute;
     	top: 50%;
     	left: 50%;
     	transform: translate(-50%, -50%);
     	width: 80%;  /* Puedes ajustar este porcentaje según lo necesites */
     	height: 80%; /* Ajusta para mantener la altura que prefieras */
-    	border: 0;
+		border-radius: 8px;
 		
-	  }
+	}
+
+	#main_rig .iframe-container {
+      border-radius: 8px;
+    }
+
+	#two .iframe-container{
+		border-radius: 8px;
+	}
+	  
 /* Table */
 
 	.table-wrapper {
@@ -3840,7 +3824,7 @@ header.major {
 
 	.features_grid {
 	  display: grid;
-	  grid-template-columns: repeat(3, 1fr);
+	  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 	  gap: 4.0rem;
 	}
 
@@ -3864,21 +3848,30 @@ header.major {
 	/* Imagen dentro de la tarjeta */
 	.features_grid section img {
 	  width: 100%;
-	  max-height: 220px;   /* 👈 hace la miniatura más pequeña */
-	  object-fit: cover;
+	  max-width: 300px;   /* 👈 hace la miniatura más pequeña */
+	  margin: 0 auto 1rem auto;
+	  display: block;
 	  border-radius: 8px;
-	  margin-bottom: 1rem;
 	}
 
 	/* Texto */
 	.features_grid section h3 {
-	  margin-top: 0.5rem;
-	  margin-bottom: 0.75rem;
+	  padding-top: 1.5rem;
+	  font-size: var(--fs-ml);
+	  padding-bottom: 0.6rem;
 	}
 
 	.features_grid section p {
 	  color: white; 
+	  font-size: var(--fs-base);
+	  line-height: 1.45;
 	}
+
+	.features_grid .button {
+      border: none;
+      box-shadow: none;
+    }
+
 
 	/* En móvil: 1 por fila */
 	@media screen and (max-width: 736px) {
@@ -3887,8 +3880,27 @@ header.major {
 	  }
 
 	  .features_grid section {
-	    max-width: 100%;
+	    padding: 1.6rem;
 	  }
+
+	  /* Imagen más pequeña */
+      .features_grid img {
+        max-width: 80%;
+        margin: 0 auto 2rem auto;
+        display: block;
+      }
+    
+      /* Título más compacto */
+      .features_grid h3 {
+        margin-bottom: 1.5rem;
+      }
+
+      
+      /* Botón más pequeño */
+      .features_grid .button.small {
+        font-size: 0.75rem;
+        padding: 0.4em 0.9em;
+      }
 	}
 
 
@@ -3940,6 +3952,10 @@ header.major {
 		  overflow-wrap: anywhere;
 		  word-break: break-word;
 		}
+
+		.contact-method h3 {
+	    	font-size: 1rem;
+	    }
 	}
 
 
@@ -4909,7 +4925,7 @@ header.major {
 	-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 	transition: transform 0.5s ease, opacity 0.5s ease;
 	display: inline-block;
-	font-size: 1.75em;
+	font-size: var(--fs-xl);
 	opacity: 1;
 	padding: 0.35em 1em;
 	position: relative;
@@ -6054,14 +6070,14 @@ body.is-preload #banner:after {
 	/* text */
 	#education .edu-text h5 {
 	  margin: 0;
-	  font-size: 1.2rem;
+	  font-size: 1.15rem;
 	  font-weight: 700;
 	  color: #fff;
 	}
 	#education .edu-text p {
 	  margin: 0.2rem 0 0 0;
 	  color: rgba(255,255,255,0.85);
-	  font-size: 1.2rem;
+	  font-size: var(--fs-base);
 	  line-height: 1.4;
 	}
 	
@@ -6124,7 +6140,7 @@ body.is-preload #banner:after {
   
 	  #education .edu-text h5,
 	  #education .edu-text p {
-	    font-size: 0.9rem;
+	    font-size: var(--fs-base);
 	  }
 	}
 
@@ -6263,7 +6279,7 @@ body.is-preload #banner:after {
 	}
 	#skills .skill-name { font-size: 1.2rem; color: #000; }
 	#skills .skill-value { font-size: 1.2rem; color: rgba(0, 0, 0, 0.75); }
-	#skills .skill-title { font-weight:600; }
+	#skills .skill-title { font-weight:600; font-size: 1.35rem;}
 
 	#skills .bar { background: rgba(199, 199, 199, 0.767); height: 10px; border-radius: 999px; overflow: hidden; }
 	#skills .bar-fill { height: 100%; width: 0; background: linear-gradient(90deg, #61A5C2, #3f91a6); transition: width 800ms cubic-bezier(.2,.8,.2,1); }
@@ -6294,7 +6310,7 @@ body.is-preload #banner:after {
 	#skills .tag img { width: 35px; height: 35px; margin-right: 6px; vertical-align: middle; }
 	
 
-	@media (max-width: 880px) {
+	@media (max-width: 736px) {
   
 	/* Ajusta columnas a ancho completo */
 	#skills .col-6, 
@@ -6364,6 +6380,8 @@ body.is-preload #banner:after {
   	#skills .tag {
   	  font-size: 0.9rem;
   	}
+
+	#skills .skill-title { font-weight:600; font-size: 1.1rem;}
 }	
 
 /* Botones centrados */
@@ -6494,7 +6512,185 @@ body.is-preload #banner:after {
 
 
 
+
+  /* ===================================== */
+/*   AJUSTE MÓVIL – RIG PAGE            */
+/* ===================================== */
+
+@media screen and (max-width: 736px) {
+
+  /* ================================== */
+  /* 🎬 VIDEO PRINCIPAL (HERO)         */
+  /* ================================== */
+
+  #main_rig .spotlight {
+	padding: 0;
+	border-radius: 8px;
+  }
+
+  #main_rig .iframe-container {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    margin: 0 auto 0.6rem auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  }
+
+
+
+  /* ================================== */
+  /* 🎬 VIDEOS SECUNDARIOS (#two)      */
+  /* ================================== */
+
+  #two .spotlight {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+	padding-right: 2rem;
+	padding-top: 1.2rem;
+	padding-bottom: 0rem;
+  }
+
+  #two .iframe-container {
+    width: 100%;
+    margin: 0 auto 0.6rem auto;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+  }
+
+  #main_rig .iframe-container iframe,
+  #two .iframe-container iframe {
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+  }
+
+
+  /* ================================== */
+  /* 📱 REORDENAR TEXTO Y BOTÓN        */
+  /* ================================== */
+
+  #two .spotlight .content {
+    display: flex;
+    flex-direction: column;
+	padding-top: 0.4rem;
+  }
+
+  /* Botón primero dentro del bloque de texto */
+  #two .spotlight .vimeo-button {
+    order: 1;
+    text-align: left;
+    margin: 1rem 0 1rem 0;
+  }
+
+  /* Título y párrafos después */
+  #two .spotlight .content h3{
+	margin-top: 2rem;
+  }
+  #two .spotlight .content h3,
+  #two .spotlight .content p {
+    order: 2;
+  }
+
+
+  /* ================================== */
+  /* 🖼 IMÁGENES                       */
+  /* ================================== */
+
+  .rig-process-images img {
+    max-width: 70%;
+    display: block;
+    margin: 0 auto 1.2rem auto;
+  }
+
+
+  /* ================================== */
+  /* 🔘 BOTONES                        */
+  /* ================================== */
+
+  .button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 0.85rem;
+    padding: 0.55em 1.1em;
+  }
+
+  .button img {
+    width: 16px !important;
+    height: 16px !important;
+    margin: 0 !important;
+  }
+
+  
+
+  .process {
+    margin: 1.2rem 2rem !important;
+  }
+
+
+}
+
+
+/* =============================== */
+/* 🖼 PROCESO – IMÁGENES (DESKTOP) */
+/* =============================== */
+
+.rig-process-images {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;              /* separación entre imágenes */
+  flex-wrap: wrap;        /* permite 2+1 */
+  margin-bottom: 4rem
+}
+
+.rig-process-images img {
+  max-width: 260px;       /* ajusta aquí el tamaño */
+  width: 100%;
+  height: auto;
+  border-radius: 6px;     /* opcional, queda fino */
+}
+
+@media screen and (max-width: 980px) {
+  .rig-process img {
+    max-width: 220px;
+  }
+}
+
+
+
+
+
+
 :root {
   color-scheme: light;
   forced-color-adjust: none;
+  /* Tamaño base */
+  --fs-base: 1rem;        /* 16px aprox */
+  
+  /* Escala */
+  --fs-xs: 0.7rem;
+  --fs-s: 0.8rem;
+  --fs-m: 1.05rem;
+  --fs-ml: 1.20rem;
+  --fs-l: 1.35rem;
+  --fs-xl: 1.9rem;
+  --fs-xxl: 2.4rem;
+}
+
+@media screen and (max-width: 736px) {
+  :root {
+    /* ===== ESCALA MÓVIL ===== */
+    --fs-base: 0.9rem;
+
+    --fs-xs: 0.7rem;
+    --fs-s: 0.8rem;
+    --fs-m: 0.9rem;
+    --fs-ml: 1rem;
+    --fs-l: 1.1rem;
+    --fs-xl: 1.35rem;
+    --fs-xxl: 1.6rem;
+  }
 }
