@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Scrooge Rig - Portfolio</title>
+		<title>Nyra Rig - Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -39,8 +39,8 @@
 				<!-- Main -->
 					<article id="main">
 						<header>
-							<h2>Scrooge</h2>
-							<p><b>FK/IK System · Non-Roll · Stretch · Blend Shapes · Partial Joints · Push Joints</b></p>
+							<h2>Nyra</h2>
+							<p><b>Game-Ready Rig · FK/IK System · Stretch & Squash · Bone-Based Facial Rig · Advanced Cloth Setup</b></p>
 						</header>
 						<section id="main_rig" class="wrapper style5">
 						  <div class="inner">
@@ -68,7 +68,8 @@
 						
 						    <p><b>3D model from <a href="https://www.cgtrader.com/free-3d-models/character/man/scrooge-rigged" target="_blank" rel="noopener noreferrer">Alvirenz-101</a>, CGTrader.</b></p>
 						
-						    <p style="text-align: justify;"><b>This full character rig was designed to provide animators with precise control and intuitive usability, making it suitable for a wide range of animation workflows.</b></p>
+						    <p style="text-align: justify;"><b>This character rig was developed with a strong focus on real-time applications, combining efficient deformation, clean hierarchy and animator-friendly controls. 
+    														   The setup is optimized for gameplay while maintaining enough flexibility for expressive animation.</b></p>
 						  </div>
 						</section>
 						
@@ -87,7 +88,9 @@
 									</div>
 									<div class="content">
 										<h3>Facial Rig</h3>
-										<p style="text-align: justify;">The facial rig includes a set of dedicated controls designed to give animators greater precision over expressions. Additionally, an FK chain was created for the hair lock on the forehead and two lattice deformers were implemented: one to simulate jaw movement during chewing and another to control the deformation of the remaining hair.</p>
+										<p style="text-align: justify;">The facial rig was designed to provide clear and efficient control over facial expressions.
+  																		Eye and lip follow systems were implemented to allow secondary controls to naturally react to main controls movement, improving overall cohesion during animation.
+  																		Additionally, an IK chain was created for the nose to enable subtle directional control and deformation when required.</p>
 										<div class="vimeo-button">
 										    <a href="https://vimeo.com/1037554364" 
 										       class="button small" 
@@ -110,15 +113,13 @@
 												<img src="images/RigsImages/FinalF.png" alt="Facial rig final corrected deformation"/>
 											</div>
 											<div class="col-12 rig-process-text">
-												<p style="margin-left: 2rem; margin-right: 2rem;">To achieve this facial rig, the following process has been followed:</p>
+												<p style="margin-left: 2rem; margin-right: 2rem;">To build this facial rig, the following process was followed:</p>
 												<ul class="process" style="text-align: justify; margin: 45px; display: block;">
 													<li>
-														Blocking (first image): initial weight assignment was applied, binding each group of vertices to the appropriate joint.
+														Blocking (first image): initial weight assignment was performed by binding facial geometry to the corresponding joints, establishing the base deformation.
 													</li>
 													<li>
-														Smooth (second image): after blocking, the weights were refined and smoothed between adjacent joints to improve deformation.
-													<li>
-														Correctives (third image): finally, different Blend Shapes and Set Driven Keys have been used to achieve better expressions in the character and make it look more realistic.
+														Smooth (second image): after blocking, the weights were refined and smoothed to ensure clean transitions and stable deformations during animation.
 													</li>
 												</ul>
 											</div>
@@ -137,9 +138,10 @@
 								    <div class="content">
 								        <h3>Body Rig</h3>
 								        <p style="text-align: justify;">
-								            The body rig includes multiple follow options (for the head, shoulders, neck, clavicles, feet, etc.) to give animators greater flexibility while posing and animating the character.
-											In addition to this, a Non-Roll System and a Stretch System have also been implemented for both arms and legs, and Partial Joints and Push Joints have been used to achieve a better deformation.
-									
+								            The body rig was built using a FK/IK system for the limbs and spine, allowing animators to switch between both workflows depending on the animation needs.
+  											Stretch and squash functionality was added to the arms, legs and spine to enhance posing and motion while keeping the setup suitable for real-time environments.
+  											The overall structure is optimized for video games, prioritizing performance, clean deformation and ease of integration into game engines.
+										</p>
 								        <div class="vimeo-button">
 								            <a href="https://vimeo.com/1037554390" 
 								               class="button small" 
@@ -165,13 +167,11 @@
 												<p style="margin-left: 2rem; margin-right: 2rem;">To obtain this body rig, the following process has been followed:
 												<ul class="process" style="text-align: justify; margin: 45px; display: block;">
 													<li>
-														Blocking (first image): initial weight painting was applied by assigning vertices to their corresponding joints.
+														 Blocking (first image): initial skinning was applied by assigning vertices to their respective joints, defining the main deformation areas.
 													</li>
 
 													<li>
-														Smooth (second image): after blocking, the weights were smoothed to distribute deformation more naturally between adjacent joints.
-													<li>
-														Correctives (third image): finally, Partial Joints and Push Joints have been created for the shoulders, elbows, wrists, neck, hips and knees and Blend Shapes have been used to correct the deformation and obtain a better result in the body.
+														Smooth (second image): the weights were then smoothed and adjusted to improve deformation quality and maintain stability during animation.
 													</li>
 												</ul>
 											</div>
@@ -191,8 +191,9 @@
 								    <div class="content">
 								        <h3>Clothes</h3>
 								        <p style="text-align: justify;">
-								            For the character's clothing, several FK chains were created (such as for the shirt collar), along with a hybrid FK-IK system for the lower part of the dressing gown. 
-											These setups provide animators with more control and help achieve realistic movement without relying on simulation or physics.
+								            The clothing rig blends multiple techniques for controlled secondary motion: katanas use Proximity Pin, Motion Paths and Follow systems; 
+											the collar combines Aim Constraints, IK Handles and Proximity Pin to preserve volume; shoulder armor relies on IK Handles and Proximity Pin for clean deformation; 
+											and the skirt features a hybrid FK/IK setup for flexible control.
 								        </p>
 									
 								        <div class="vimeo-button">

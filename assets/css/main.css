@@ -1938,7 +1938,7 @@ div{
 		.button.small {
 			background-color: #61A5C2;
 			font-weight: 700;
-			font-size: var(--fs-xs);
+			font-size: var(--fs-s);
 		}
 			input[type="submit"].small:hover,
 			input[type="reset"].small:hover,
@@ -5949,10 +5949,7 @@ body.is-preload #banner:after {
 	}
 
 	body.landing #banner {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.png");
+		background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../../images/bannerDesktop.jpg");
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
@@ -5966,15 +5963,22 @@ body.is-preload #banner:after {
 		background: none;
 	}
 
-	body.is-mobile.landing #banner,
-	body.is-mobile.landing .wrapper.style4 {
-		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.png");
-		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.png");
-		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.png");
-		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/banner2.png");
-		background-position: center center;
-		background-repeat: no-repeat;
-		background-size: cover;
+	@media screen and (max-width: 980px) {
+
+	    body.landing #banner {
+	        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+	                          url("../../images/bannerLaptop.jpg");
+	    }
+
+	}
+
+	@media screen and (max-width: 736px) {
+
+	    body.landing #banner {
+	        background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+	                          url("../../images/bannerMobile.jpg");
+	    }
+
 	}
 
 	body.is-mobile.landing #footer {

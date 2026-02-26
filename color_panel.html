@@ -1,0 +1,192 @@
+<!DOCTYPE HTML>
+<!--
+	Spectral by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Rig Control Color & Render Manager - Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Home</a></li>
+											<li><a href="about.html">About</a></li>
+											<li><a href="portfolio.html">Portfolio</a></li>
+											<li><a href="about.html#contact">Contact</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Rig Control Color & Render Manager</h2>
+							<p><b>Python · Maya cmds · Arnold Integration · JSON Persistence · Production-Oriented Tool</b></p>
+						</header>
+						<section id="main_rig" class="wrapper style5">
+						  <div class="inner">
+						    <section class="spotlight">
+						      <div class="iframe-container">
+						        <iframe src="https://player.vimeo.com/video/1038275825?title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+						          frameborder="0"
+						          allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+						          title="Rig Control Tool"></iframe>
+						      </div>
+						    </section>
+						
+
+						    <div style="text-align: left; margin-top: 1rem; margin-bottom: 1rem;">
+						      <a href="https://vimeo.com/1038275825"
+						         class="button primary"
+						         target="_blank"
+						         rel="noopener noreferrer"
+						         style="display: inline-flex; align-items: center; gap: 6px;">
+							
+						         <img src="images/logos/vimeo.png" alt="Vimeo" style="width:30px; height:30px; margin-right: 0.5rem;">
+						         See on Vimeo
+						      </a>
+						    </div>
+
+						    <p style="text-align: justify;">
+								This tool was developed to standardize control color workflows 
+								and automate Arnold curve rendering setup in production-ready game rigs.
+								It centralizes color management, enforces visual consistency
+								and optimizes render node creation for local and referenced assets.
+							</p>
+						  </div>
+						</section>
+						
+						<section id="two" class="wrapper alt style2">
+							<div class="inner">
+								<br>
+								<br>
+
+								<section class="spotlight">
+									<div class="image">
+										<img src="images/RigsImages/Bow.png" alt="Bow rig: setup and controls"/>
+									</div>
+									<div class="content">
+										<h3>Production Challenge</h3>
+										<p style="text-align: justify;">
+											In large-scale productions, inconsistent control coloring and manual Arnold setup
+											create unnecessary scene overhead and workflow friction.
+											Referenced rigs require unique handling to avoid node conflicts
+											and repeated manual configuration increases the risk of errors.
+										</p>
+									</div>
+								</section>
+								<section class="spotlight">
+									<div class="image">
+										<img src="images/RigsImages/Arrow.png" alt="Arrow rig: setup and controls"/>
+									</div>
+									<div class="content">
+										<h3>Tool Objectives</h3>
+										<ul class="process" style="text-align: justify; margin: 45px; display: block;">
+											<li>Standardize control color conventions.</li>
+											<li>Support both indexed and custom RGB workflows.</li>
+											<li>Provide persistent JSON-based configuration.</li>
+											<li>Ensure reference-safe Arnold node creation.</li>
+											<li>Reduce scene node duplication and improve performance.</li>
+										</ul>
+									</div>
+								</section>
+								<section class="spotlight">
+									<div class="image">
+										<img src="images/RigsImages/Arrow.png" alt="Arrow rig: setup and controls"/>
+									</div>
+									<div class="content">
+										<h3>Core Systems</h3>
+										<ul class="process" style="text-align: justify; margin: 45px; display: block;">
+											<li>Grouped preset blocks for Main, Side and Secondary controls.</li>
+											<li>Real-time preview with indexed and RGB override detection.</li>
+											<li>Unsaved-change detection before closing UI.</li>
+											<li>WorkspaceControl dockable interface for pipeline integration.</li>
+										</ul>
+									</div>
+								</section>
+								<section class="spotlight">
+									<div class="image">
+										<img src="images/RigsImages/Arrow.png" alt="Arrow rig: setup and controls"/>
+									</div>
+									<div class="content">
+										<h3>Arnold Optimization</h3>
+										<ul class="process" style="text-align: justify; margin: 45px; display: block;">
+											<li>Automatic ramp and place2dTexture generation per transform.</li>
+											<li>UUID-based naming for referenced rigs.</li>
+											<li>Connection cleanup and reconnection safety.</li>
+											<li>Removal of unused ramp and texture nodes.</li>
+											<li>Configurable curve width and sample rate.</li>
+											<li>Automatic disabling of unnecessary Arnold visibility attributes.</li>
+										</ul>
+									</div>
+								</section>
+								<section class="spotlight">
+									<div class="image">
+										<img src="images/RigsImages/Arrow.png" alt="Arrow rig: setup and controls"/>
+									</div>
+									<div class="content">
+										<h3>Technical Architecture</h3>
+										<p style="text-align: justify;">
+											The tool was written entirely in Python using Maya cmds. Although implemented in a single script, 
+											it follows a modular functional structure separating UI construction, color management logic, render 
+											configuration and JSON persistence. Safe DAG name handling and transform-based ramp reuse ensure 
+											scalability and reduced node overhead in complex scenes.
+										</p>
+									</div>
+								</section>
+								<br>
+								<br>
+								<div style="text-align: center;">
+									<a href="portfolio.html" class="button primary" style="align-items: center;">Go back</a>
+								</div>
+								<br>
+								<br>
+							</div>
+						</section>
+					</article>
+
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/barbara-amado-camunas-riggingartist" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+							<li><a href="https://www.artstation.com/barbaraamadocamunas" class="icon brands fa-artstation"><span class="label">ArtStation</span></a></li>
+							<li><a href="mailto:baamadocamunas@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy; Bárbara Amado Camuñas - Portfolio 2026</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
